@@ -10,13 +10,33 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Proyecto_Final">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".mainModule.view.SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Proyecto_Final.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".mainModule.view.Login" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Login" />
+        </activity>
+        <activity android:name=".mainModule.view.Loguearse" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Loguearse" />
+        </activity>
+        <activity android:name=".mainModule.view.Registrarse" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Registrarse" />
+        </activity>
+        <activity android:name=".mainModule.view.Datos" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Datos" />
         </activity>
     </application>
 

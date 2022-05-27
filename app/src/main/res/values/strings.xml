@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">Proyecto_Final</string>
+    <string name="app_name">MadFit</string>
+    <string name="loguearse">LOGUEARSE</string>
+    <string name="registrarse">REGISTRARSE</string>
+    <string name="usuario">Usuario</string>
+    <string name="nusuario">Nombre de Usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="rcontraseña">Repite la Contraseña</string>
+    <string name="correo">Email</string>
+    <string name="datos">Datos Personales</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="telefono">Tu nº de móvil</string>
+    <string name="ciudad">Tu ciudad</string>
+    <string name="calle">Calle</string>
+    <string name="numero">Numero</string>
+    <string name="guardar">GUARDAR</string>
 </resources>
