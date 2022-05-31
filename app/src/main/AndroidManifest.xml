@@ -38,6 +38,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".mainModule.view.Datos" />
         </activity>
+        <activity android:name=".mainModule.view.Deportes" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Deportes" />
+        </activity>
     </application>
 
 </manifest>

@@ -66,7 +66,9 @@ class Registrarse: AppCompatActivity() {
                         Toast.LENGTH_LONG
 
                     ).show();
-                    startActivity(Intent(this, Datos::class.java))
+                    val intent = Intent(this, Datos::class.java)
+                    intent.putExtra("correo", email.toString())
+                    startActivity(intent)
                 } else {
                     // If sign in fails, display a message to the user.
                     Toast.makeText(this, "No se pudo registrar el usuario", Toast.LENGTH_LONG)

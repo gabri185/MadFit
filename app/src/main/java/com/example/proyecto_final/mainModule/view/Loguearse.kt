@@ -1,6 +1,7 @@
 package com.example.proyecto_final.mainModule.view
 
 import android.app.ProgressDialog
+import android.content.Intent
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
@@ -80,6 +81,9 @@ class Loguearse: AppCompatActivity() {
                     )
                         .show()
 
+                    iniciarDeportes()
+
+
                 }
 
                 override fun onAuthenticationFailed() {
@@ -105,7 +109,7 @@ class Loguearse: AppCompatActivity() {
         // Consider integrating with the keystore to unlock cryptographic operations,
         // if needed by your app.
 
-        binding.btLogin.setOnClickListener {
+        binding.bthuella.setOnClickListener {
             biometricPrompt.authenticate(promptInfo)
         }
     }
@@ -139,7 +143,9 @@ class Loguearse: AppCompatActivity() {
                         this, "Se ha logueado con exito" + binding.tvUsuario.text,
                         Toast.LENGTH_LONG
 
-                    ).show();
+                    ).show()
+
+                    startActivity(Intent(this, Deportes::class.java))
                 }else{
                     Toast.makeText(
                         this, "No se pudo loguear" + binding.tvUsuario.text,
@@ -149,5 +155,9 @@ class Loguearse: AppCompatActivity() {
                 }
                 progress.dismiss()
             }
+    }
+
+    private fun iniciarDeportes() {
+        startActivity(Intent(this, Deportes::class.java))
     }
 }
