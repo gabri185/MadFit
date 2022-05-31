@@ -53,7 +53,7 @@
                     android:layout_marginTop="16dp"
                     android:layout_marginEnd="16dp"
                     android:backgroundTint="@color/black"
-                    android:hint="@string/usuario"
+                    android:hint="@string/correo"
                     android:nextFocusDown="@+id/tvPassword"
                     android:singleLine="true"
                     android:textColor="@color/black"
@@ -82,7 +82,8 @@
                     android:nextFocusDown="@+id/tvPassword"
                     android:singleLine="true"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black" />
+                    android:textColorHint="@color/black"
+                    android:inputType="textPassword"/>
             </LinearLayout>
 
             <LinearLayout

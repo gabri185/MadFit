@@ -83,7 +83,8 @@
                     android:nextFocusDown="@+id/tvPassword"
                     android:singleLine="true"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black" />
+                    android:textColorHint="@color/black"
+                    android:inputType="textPassword"/>
             </LinearLayout>
 
             <LinearLayout
@@ -108,7 +109,8 @@
                     android:nextFocusDown="@+id/tvPassword"
                     android:singleLine="true"
                     android:textColor="@color/black"
-                    android:textColorHint="@color/black" />
+                    android:textColorHint="@color/black"
+                    android:inputType="textPassword"/>
             </LinearLayout>
 
             <LinearLayout
