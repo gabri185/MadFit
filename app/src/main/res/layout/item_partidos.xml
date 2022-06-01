@@ -18,26 +18,28 @@
         android:background="@color/negro"
         android:gravity="center"
         android:text="TextView"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="10dp"
         android:layout_below="@+id/partidos"
-        android:layout_alignParentBottom="true">
+        android:layout_alignParentBottom="true"
+        android:background="@color/verde_claro">
 
 
         <TextView
             android:id="@+id/tipo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
             android:layout_alignParentTop="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginTop="23dp"
-            android:layout_marginEnd="285dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="19dp"
             android:text="TextView"
-            android:textSize="18dp"
-            android:textStyle="bold"/>
+            android:textSize="22dp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/lugar"
@@ -45,19 +47,10 @@
             android:layout_height="wrap_content"
             android:layout_alignStart="@+id/tipo"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="0dp"
-            android:layout_marginBottom="27dp"
-            android:text="lugar" />
-
-        <TextView
-            android:id="@+id/personas"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="9dp"
-            android:layout_marginBottom="10dp"
-            android:text="TextView" />
+            android:layout_marginStart="2dp"
+            android:layout_marginBottom="22dp"
+            android:text="lugar"
+            android:textSize="18dp"/>
 
         <TextView
             android:id="@+id/hora"
@@ -65,9 +58,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginTop="4dp"
-            android:layout_marginEnd="13dp"
-            android:text="TextView" />
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="29dp"
+            android:text="TextView"
+            android:textSize="18dp"/>
     </RelativeLayout>
 
 

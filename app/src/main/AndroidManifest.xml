@@ -43,6 +43,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value=".mainModule.view.Deportes" />
         </activity>
+        <activity android:name=".mainModule.view.Partidos" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.Partidos" />
+        </activity>
+        <activity android:name=".mainModule.view.CrearPartido" android:theme="@style/Theme.Proyecto_Final.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".mainModule.view.CrearPartido" />
+        </activity>
     </application>
 
 </manifest>

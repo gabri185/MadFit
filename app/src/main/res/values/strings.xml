@@ -17,4 +17,10 @@
     <string name="guardar">GUARDAR</string>
     <string name="deportes">DEPORTES</string>
     <string name="partidos">PARTIDOS</string>
+    <string name="centro">Centro Deportivo</string>
+    <string name="deporte2">Deporte</string>
+    <string name="fecha">Fecha</string>
+    <string name="jugadores">Jugadores</string>
+    <string name="hora">Hora</string>
+
 </resources>
